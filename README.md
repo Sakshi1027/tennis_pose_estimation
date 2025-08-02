@@ -89,15 +89,12 @@ A beautiful web interface for detecting and classifying tennis poses using advan
 tennis-pose-detection/
 ├── app.py                 # Main Flask application
 ├── requirements.txt       # Python dependencies
-├── setup.py              # Setup script for model files
 ├── README.md             # This file
-├── .gitignore            # Git ignore rules
 ├── pose_classifier_new.pkl # Your trained model (required)
 ├── yolov8m.pt            # YOLO person detection model
 ├── yolov8m-pose.pt       # YOLO pose estimation model
-├── templates/
-│   └── index.html        # Web interface template
-└── uploads/              # Temporary upload directory (auto-created)
+│ ─ index.html        # Web interface template
+             
 ```
 
 **Note**: Large model files (`.pt`, `.pkl`, `.zip`) are excluded from Git to keep the repository size manageable. Users need to add these files manually or download them separately.
@@ -169,6 +166,3 @@ Feel free to enhance the application by:
 
 This project is for educational and research purposes. The trained model is based on your tennis dataset and should be used responsibly.
 
----
-
-**Enjoy detecting tennis poses with AI! 🎾🤖** 
