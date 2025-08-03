@@ -1,6 +1,6 @@
-# Tennis Pose Detection AI Web Application
+# Tennis Pose Estimation
 
-A beautiful web interface for detecting and classifying tennis poses using advanced AI models. This application combines YOLO person detection, pose estimation, and machine learning classification to identify tennis poses in uploaded images.
+A  web interface for detecting and classifying tennis poses using advanced AI models. This application combines YOLO person detection, pose estimation, and machine learning classification to identify tennis poses in uploaded images.
 
 ## Features
 
@@ -165,4 +165,5 @@ Feel free to enhance the application by:
 ## License
 
 This project is for educational and research purposes. The trained model is based on your tennis dataset and should be used responsibly.
+
 
